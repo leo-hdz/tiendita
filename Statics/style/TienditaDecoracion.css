@@ -1,15 +1,4 @@
-@font-face {
-    font-family: "Titulo";
-    src: url();
-}
-@font-face {
-    font-family: "Productos";
-    src: url();
-}
-@font-face {
-    font-family: "CarCompras";
-    src: url();
-}
+
 body{
     background-color: rgb(243, 242, 242);
     color:rgb(36, 42, 121);
@@ -22,7 +11,7 @@ body{
 header {
     display:flex;
     align-items:center;
-    background-color:#ffda77;
+    background-color:rgb(253, 252, 250);
     width:100%;
     padding:15px;
     justify-content: center;
@@ -56,19 +45,32 @@ main{
     border: 1px dashed #0dcef0a4;
     padding:10px;
     background:#f0f0f0;
+
 }
 h2{
     color:rgb(0, 0, 0);
-    font-family:"Titulo";
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     text-align: center;
 }
 img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 .boton{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
+.productos{
+    font-size: 30px;
+}
+.carrito{
+    width: 50px;
+    height: 50px; 
+}
+
+img[src="Statics/images/agregar.png"]{
+    width: 25px;
+    height: 25px;
+}
