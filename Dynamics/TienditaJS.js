@@ -2,11 +2,11 @@ let dineroTotal = 0;
 
 const productos = [
   { id: 1, nombre: "Mouse", precio: 399.00, imagen: "Statics/images/sugMouse.webp" },
-  { id: 2, nombre: "Teclado", precio: 211.00, imagen: "Statics/images/mousepad.jpg" },
+  { id: 2, nombre: "Mouse Pad", precio: 211.00, imagen: "Statics/images/mousepad.jpg" },
   { id: 3, nombre: "Audífonos", precio: 836.00, imagen: "Statics/images/sugAudifonos.webp" },
   { id: 4, nombre: "Sillgamer", precio: 3269.00, imagen: "Statics/images/sugSilla.webp"},
-  { id: 5, nombre: "Monitor", precio: 4299.00, imagen: "Statics/images/sugLaptopNormal.webp"},
-  { id: 6, nombre: "MousePad", precio: 211.00, imagen: "Statics/images/mousepad.jpg" },
+  { id: 5, nombre: "Laptop", precio: 4299.00, imagen: "Statics/images/sugLaptopNormal.webp"},
+  { id: 6, nombre: "Mouse 2", precio: 107.00, imagen: "Statics/images/sugMouse2.webp" },
   { id: 7, nombre: "Cargador", precio: 80.00, imagen: "Statics/images/producto1.jpg" },
   { id: 8, nombre: "Luces", precio: 230.00, imagen: "Statics/images/producto1.jpg" },
   { id: 9, nombre: "bosinas", precio: 500.00, imagen: "Statics/images/producto1.jpg" },
@@ -83,8 +83,8 @@ btn4.addEventListener("click",()=>{
 btn5.addEventListener("click",()=>{
     let precioTotal = document.getElementById("total");
     let productoAct = document.createElement("div");
-    productoAct.textContent = "- " + productos[5].nombre;
-    dineroTotal += productos[5].precio;
+    productoAct.textContent = "- " + productos[4].nombre;
+    dineroTotal += productos[4].precio;
     precioTotal.textContent = dineroTotal;
     listaCarrito.appendChild(productoAct);
 });
@@ -101,8 +101,8 @@ btn6.addEventListener("click",()=>{
 btn7.addEventListener("click",()=>{
     let precioTotal = document.getElementById("total");
     let productoAct = document.createElement("div");
-    productoAct.textContent = "- " + productos[5].nombre;
-    dineroTotal += productos[5].precio;
+    productoAct.textContent = "- " + productos[3].nombre;
+    dineroTotal += productos[3].precio;
     precioTotal.textContent = dineroTotal;
     listaCarrito.appendChild(productoAct);
 });
