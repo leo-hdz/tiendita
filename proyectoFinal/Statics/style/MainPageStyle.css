@@ -1,3 +1,16 @@
+.banner{
+    position:absolute;
+    top:20%;
+    left:10%;
+    color:white;
+    z-index:2;
+    text-shadow: 2px 2px 4px #0000;
+}
+h1{
+    font-size:48px;
+    margin:0;
+
+}
 .carrusel{
     position:relative;
     width:80%;
