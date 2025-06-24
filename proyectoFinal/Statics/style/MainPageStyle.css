@@ -48,3 +48,15 @@ h1{
 .next{
     right:0;
 }
+#recomendaciones{
+    background: #121212;
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    margin:20px auto;
+    width:90%;
+}
+.listaCanciones li{
+    padding:10px 0;
+    border-bottom:1px solid #3333;
+}
